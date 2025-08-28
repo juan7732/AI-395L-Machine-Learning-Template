@@ -20,12 +20,19 @@ The jupyter environment comes with the following dependencies established:
 - Python 3.8
 - Jupyter
 - Scikit-learn
-- Pandas
+- NumPy
+- pandas
 - Matplotlib
-- Seaborn
+- seaborn
 
 If you need to add any additional packages, use the `uv add <package>`.
 
 ## References
 
-- [UV Reference](https://docs.astral.sh/uv/getting-started/features/#python-versions)
+- [UV](https://docs.astral.sh/uv/getting-started/features/#python-versions)
+- [Jupyter](https://jupyter.org/)
+- [NumPy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [scikit-learn](https://scikit-learn.org/stable/)
