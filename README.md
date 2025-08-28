@@ -14,9 +14,11 @@ Before getting set up, first install `uv`.
 
 ### Running Locally
 
+0. Run `uv venv` to establish a virtual environment in the root of this directory.
 1. Run `uv python install` to install the required Python version (3.8)
 2. Run `uv sync` to sync the project's dependencies
 3. Run `uv run jupyter lab` or `uv run jupyter notebook` to launch your preferred jupyter experience.
+4. If you're using Visual Studio Code, using the command palette (`Cmd + Shift + P` on windows or `Shift + ⌘ + P`) and run `Python: Select Interpreter` and choose the .venv interpreter of this directory.
 
 ## Recommended Usage
 
