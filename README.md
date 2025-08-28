@@ -2,6 +2,8 @@
 
 The purpose of this repo is to have an effective local environment that can be source controlled to complete and work on the homework assignments for AI 395L Machine Learning as part of UT's Masters of Aritificial Intelligence Program.
 
+This repo was specifically set up to work best with Visual Studio Code, so usage outside of vscode might be possible, but mileage may vary.
+
 ## Set up
 
 ### Pre-requisites
