@@ -4,14 +4,23 @@ The purpose of this repo is to have an effective local environment that can be s
 
 ## Set up
 
-1.To get set up, first install `uv`
+### Pre-requisites
+
+Before getting set up, first install `uv`.
 
 <https://docs.astral.sh/uv/getting-started/installation/>
 
-2. Run `uv python install` to install the required Python version (3.8)
-3. Run `uv sync` to sync the project's dependencies
-4. Run `uv run jupyter lab` or `uv run jupyter notebook` to launch your preferred jupyter experience.
+### Running Locally
 
+1. Run `uv python install` to install the required Python version (3.8)
+2. Run `uv sync` to sync the project's dependencies
+3. Run `uv run jupyter lab` or `uv run jupyter notebook` to launch your preferred jupyter experience.
+
+## Recommended Usage
+
+1. Create the homework folder under `./Homework` to track the homework for that week.
+
+2. Launch your preferred jupyter experience.
 
 ## About the Jupyter Environments
 
@@ -28,6 +37,8 @@ The jupyter environment comes with the following dependencies established:
 If you need to add any additional packages, use the `uv add <package>`.
 
 ## References
+
+If you are not familiar with how Jupyter works, I recommend this free course to get a basic understanding of Jupyter: <https://www.codecademy.com/learn/getting-started-off-platform-for-data-science>
 
 - [UV](https://docs.astral.sh/uv/getting-started/features/#python-versions)
 - [Jupyter](https://jupyter.org/)
